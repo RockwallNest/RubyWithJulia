@@ -1,5 +1,5 @@
 # Ruby-
-自作RubyのBot. bitFlyerのAPIをたたいて、Bitcoinのticker情報を取得します。
+自作RubyのBot。 bitFlyerのAPIをたたいて、Bitcoinのticker情報を取得します。
 ticker情報は10だけプリントします。
 
 # Requirements 
