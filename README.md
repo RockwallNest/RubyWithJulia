@@ -1,13 +1,17 @@
 # Ruby-
-自作RubyのBot。 bitFlyerのAPIをたたいて、Bitcoinのticker情報を取得します。
-ticker情報は10だけプリントします。
+自作RubyのBot。 bitFlyerのAPIをたたいて、Bitcoinのticker情報を取得します。<br>
+ticker情報は10だけプリントします。<br>
+接頭の時刻はTimeオブジェクトに変換して、CSVファイルに出力してグラフ化できるようにしてあります。<br>
+末尾の時刻はtimestampそのもので、元データとして残してあります<br>
+RやJuliaなどを使えばグラフ描画はできます。<br>
 
 # Requirements 
 
-ruby-3.0.0 で動作を確認ずみ
+ruby-3.0.0 で動作を確認ずみ。<br>
+ruby-2.7.2 などでは、bundle init, bunlde install等をして で　一から自作しないとできません。<br>
 
 # Usage: 
-$ bundle exec ruby inspect_bitlfyer_info.rb
+$ bundle exec ruby inspect_bitlfyer_info.rb<br>
 
 # 出力例:
 　time,best_bid,best_ask,ltp,timestamp<br>
@@ -23,7 +27,7 @@ $ bundle exec ruby inspect_bitlfyer_info.rb
   00:22:33,2893501.0,2895106.0,2895106.0,2020-12-30T15:22:33.507<br>
 
 # Author:
-RockwallNest 
+RockwallNest<br>
 
 # Copyright:
-Copyright 2020 RockwallNest. This software is released under the MIT License, see LICENSE.txt.
+Copyright 2020 RockwallNest. This software is released under the MIT License, see LICENSE.txt.<br>
