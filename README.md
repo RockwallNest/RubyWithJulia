@@ -10,10 +10,10 @@ RやJuliaなどを使えばグラフ描画はできます。<br>
 ruby-3.0.0 で動作を確認ずみ。<br>
 ruby-2.7.2 などでは、bundle init, bunlde install等をして で　一から自作しないとできません。<br>
 
-# Usage: 
+# Usage
 $ bundle exec ruby inspect_bitlfyer_info.rb<br>
 
-# 出力例:
+# 出力例
 　time,best_bid,best_ask,ltp,timestamp<br>
   00:22:04,2896610.0,2898103.0,2898587.0,2020-12-30T15:22:04.697<br>
   00:22:08,2896610.0,2898102.0,2898587.0,2020-12-30T15:22:08.663<br>
@@ -26,8 +26,8 @@ $ bundle exec ruby inspect_bitlfyer_info.rb<br>
   00:22:29,2893499.0,2895136.0,2895137.0,2020-12-30T15:22:29.913<br>
   00:22:33,2893501.0,2895106.0,2895106.0,2020-12-30T15:22:33.507<br>
 
-# Author:
+# Author
 RockwallNest<br>
 
-# Copyright:
+# Copyright
 Copyright 2020 RockwallNest. This software is released under the MIT License, see LICENSE.txt.<br>
