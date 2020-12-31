@@ -38,7 +38,7 @@ $ bundle exec ruby inspect_bitlfyer_info.rb <br>
  $ bundle exec ruby inspect_bitflyer_info.rb > btc_jpy.csv <br>
  
  $ julia             # juliaを起動する　<br>
-\> include("plot_bitflyer_info.jl")
+ julia\> include("plot_bitflyer_info.jl")
 
 
 # Author
