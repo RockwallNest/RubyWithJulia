@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    json (2.3.1)
+    uri (0.10.0)
+
+PLATFORMS
+  ruby
+  x86_64-darwin-20
+
+DEPENDENCIES
+  json
+  uri
+
+BUNDLED WITH
+   2.2.0
