@@ -14,6 +14,8 @@ ruby-2.7.2 などでも、bunlde installから実行できます。<br>
 
 # Usage
 ## ローカルで作成、実行します。
+$ https://github.com/RockwallNest/Ruby-.git
+$ cd Ruby-
 $ bundle config set --local path vendor/bundle <br>
 $ bunlde install <br>
 $ bundle exec ruby inspect_bitlfyer_info.rb <br>
