@@ -38,8 +38,10 @@ $ bundle exec ruby inspect_bitlfyer_info.rb <br>
  $ bundle exec ruby inspect_bitflyer_info.rb > btc_jpy.csv <br>
  
  $ julia             # juliaを起動する　<br>
- julia\> include("plot_bitflyer_info.jl")
-
+ julia\> include("plot_bitflyer_info.jl") <br>
+ 
+ #### グラフ出力例 
+ btc_jpy_bitlfyer.pngを参照。データ１０個ではこんなもんです...
 
 # Author
 RockwallNest <br>
