@@ -1,9 +1,10 @@
 # RubyWithJulia
 自作RubyのBot。
-## RubyでbitFlyerのAPIをたたいてみた...
+
+### 素朴にRubyでbitFlyerのAPIをたたいてみた...
 bitFlyerのAPIをたたいて、Bitcoinのticker情報を取得します。<br>
-ticker情報は10だけプリントします。<br>
-接頭の時刻はTimeオブジェクトに変換して、CSVファイルに出力してグラフ化できるようにしてあります。<br>
+ticker情報は10だけ表示します。<br>
+接頭の時刻はTimeオブジェクトに変換してあり、CSVファイルに出力してグラフ化できるようにしてあります。<br>
 末尾の時刻はtimestampそのもので、元データとして残してあります。<br>
 RやJuliaなどを使えばグラフ描画はできます。<br>
 
@@ -33,11 +34,12 @@ $ bundle exec ruby inspect_bitlfyer_info.rb <br>
   00:22:29,2893499.0,2895136.0,2895137.0,2020-12-30T15:22:29.913<br>
   00:22:33,2893501.0,2895106.0,2895106.0,2020-12-30T15:22:33.507<br>
  
- ### グラフ描画
+ ### グラフ描画例
  $ bundle exec ruby inspect_bitflyer_info.rb > btc_jpy.csv <br>
  
  $ julia             # juliaを起動する　<br>
 \> include("plot_bitflyer_info.jl")
+
 
 # Author
 RockwallNest <br>
