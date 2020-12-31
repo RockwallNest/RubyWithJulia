@@ -2,16 +2,17 @@
 自作RubyのBot。 bitFlyerのAPIをたたいて、Bitcoinのticker情報を取得します。<br>
 ticker情報は10だけプリントします。<br>
 接頭の時刻はTimeオブジェクトに変換して、CSVファイルに出力してグラフ化できるようにしてあります。<br>
-末尾の時刻はtimestampそのもので、元データとして残してあります<br>
+末尾の時刻はtimestampそのもので、元データとして残してあります。<br>
 RやJuliaなどを使えばグラフ描画はできます。<br>
 
 # Requirements 
 
 ruby-3.0.0 で動作を確認ずみ。<br>
-ruby-2.7.2 などでは、bundle init, bunlde install等をして で　一から自作しないとできません。<br>
+ruby-2.7.2 などでも、bunlde installから実行できます。<br>
 
 # Usage
-$ bundle exec ruby inspect_bitlfyer_info.rb<br>
+$ bunlde install <br>
+$ bundle exec ruby inspect_bitlfyer_info.rb <br>
 
 # 出力例
 　time,best_bid,best_ask,ltp,timestamp<br>
