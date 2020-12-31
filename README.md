@@ -1,4 +1,4 @@
-# Ruby-
+# RubyWithJulia
 自作RubyのBot。
 ## RubyでbitFlyerのAPIをたたいてみた...
 bitFlyerのAPIをたたいて、Bitcoinのticker情報を取得します。<br>
@@ -20,7 +20,7 @@ $ bundle config set --local path vendor/bundle <br>
 $ bunlde install <br>
 $ bundle exec ruby inspect_bitlfyer_info.rb <br>
 
-# 出力例
+### 出力例
 　time,best_bid,best_ask,ltp,timestamp<br>
   00:22:04,2896610.0,2898103.0,2898587.0,2020-12-30T15:22:04.697<br>
   00:22:08,2896610.0,2898102.0,2898587.0,2020-12-30T15:22:08.663<br>
@@ -32,6 +32,12 @@ $ bundle exec ruby inspect_bitlfyer_info.rb <br>
   00:22:26,2893498.0,2895248.0,2894434.0,2020-12-30T15:22:26.723<br>
   00:22:29,2893499.0,2895136.0,2895137.0,2020-12-30T15:22:29.913<br>
   00:22:33,2893501.0,2895106.0,2895106.0,2020-12-30T15:22:33.507<br>
+ 
+ ### グラフ描画
+ $ bundle exec ruby inspect_bitflyer_info.rb > btc_jpy.csv <br>
+ 
+ $ julia             # juliaを起動する　<br>
+ > include("plot_bitflyer_info.jl")
 
 # Author
 RockwallNest <br>
