@@ -14,8 +14,8 @@ ruby-2.7.2 などでも、bunlde installから実行できます。<br>
 
 # Usage
 ## ローカルで作成、実行します。
-$ https://github.com/RockwallNest/Ruby-.git
-$ cd Ruby-
+$ https://github.com/RockwallNest/RubyWithJulia.git
+$ cd RubyWithJulia
 $ bundle config set --local path vendor/bundle <br>
 $ bunlde install <br>
 $ bundle exec ruby inspect_bitlfyer_info.rb <br>
@@ -37,7 +37,7 @@ $ bundle exec ruby inspect_bitlfyer_info.rb <br>
  $ bundle exec ruby inspect_bitflyer_info.rb > btc_jpy.csv <br>
  
  $ julia             # juliaを起動する　<br>
- > include("plot_bitflyer_info.jl")
+\> include("plot_bitflyer_info.jl")
 
 # Author
 RockwallNest <br>
