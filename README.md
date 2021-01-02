@@ -1,7 +1,7 @@
 # RubyWithJulia
-自作RubyのBot。
+自作RubyのApp。
 
-### 素朴にRubyでbitFlyerのAPIをたたいてみた...
+### 素朴にRubyでbitFlyerのAPIをたたいてみるAppをつくった...
 bitFlyerのAPIをたたいて、Bitcoinのticker情報を取得します。<br>
 ticker情報は10だけ表示します。<br>
 接頭の時刻はTimeオブジェクトに変換してあり、CSVファイルに出力してグラフ化できるようにしてあります。<br>
