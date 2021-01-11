@@ -47,4 +47,4 @@ $ bundle exec ruby inspect_bitlfyer_info.rb <br />
 RockwallNest <br />
 
 # Copyright
-Copyright 2020 RockwallNest. This software is released under the MIT License. <br>
+Copyright &c 2020 RockwallNest. This software is released under the MIT License. <br>
