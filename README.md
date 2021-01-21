@@ -16,12 +16,13 @@ ruby-2.7.2 などでも、bunlde installから実行できます。<br>
 
 # Usage
 ### ローカルで作成、実行します。
-$ https://github.com/RockwallNest/RubyWithJulia.git<br />
-$ cd RubyWithJulia <br />
-$ bundle config set --local path vendor/bundle <br />
-$ bunlde install <br />
-$ bundle exec ruby inspect_bitlfyer_info.rb <br />
-
+```
+$ git clone https://github.com/RockwallNest/RubyWithJulia.git
+$ cd RubyWithJulia 
+$ bundle config set --local path vendor/bundle 
+$ bunlde install 
+$ bundle exec ruby inspect_bitlfyer_info.rb 
+```
 #### 出力例
 　time,best_bid,best_ask,ltp,timestamp<br>
   00:22:04,2896610.0,2898103.0,2898587.0,2020-12-30T15:22:04.697<br>
@@ -36,10 +37,13 @@ $ bundle exec ruby inspect_bitlfyer_info.rb <br />
   00:22:33,2893501.0,2895106.0,2895106.0,2020-12-30T15:22:33.507<br>
  
  #### グラフ描画例
- $ bundle exec ruby inspect_bitflyer_info.rb > btc_jpy.csv <br />
+ ```
+ $ bundle exec ruby inspect_bitflyer_info.rb > btc_jpy.csv 
+
+ $ julia             # juliaを起動する　
  
- $ julia             # juliaを起動する　<br />
- julia\> include("plot_bitflyer_info.jl") <br />
+ julia\> include("plot_bitflyer_info.jl") 
+ ```
  
  #### グラフ出力例 
  btc_jpy_bitlfyer.pngを参照。データ１０個ではこんなもんです...
